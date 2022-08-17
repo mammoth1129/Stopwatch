@@ -1,0 +1,45 @@
+:root{
+  --base-color: orange;
+}
+body{
+  background-color: var(--base-color)
+}
+.main
+{
+  width: 800px;
+  text-align: center;
+  color: white;
+  margin: 150px auto;
+}
+
+h1,h2{
+  font-size: 2.6rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+#seconds,#tens{
+  font-size: 2.5rem;
+}
+.colin{
+  font-size: 2.5rem;
+}
+
+button{
+  background-color: var(--base-color);
+  border: solid 1px grey;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover{
+  background-color: white;
+  border: solid 1px white;
+  color: var(--base-color);
+  transition: all 0.5s ease-in-out;
+}
